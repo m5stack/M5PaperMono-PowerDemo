@@ -1,6 +1,10 @@
 # Prerequisites
 *.d
 
+# Python cache
+__pycache__/
+*.py[cod]
+
 # Compiled Object files
 *.slo
 *.lo
@@ -38,6 +42,27 @@
 build/
 cmake-build-*/
 managed_components/
+
+# ESP-IDF generated project configuration
+sdkconfig
+sdkconfig.old
+
+# Components installed by fetch_repos.py
+/components/espressif__cmake_utilities/
+/components/espressif__i2c_bus/
+/components/ic_rx8130/
+/components/M5GFX/
+/components/M5HAL/
+/components/M5IOE1/
+/components/M5PM1/
+/components/M5Unit-NFC/
+/components/M5UnitUnified/
+/components/M5Utility/
+/components/RadioLib/
+/components/BMI270/
+.clang-format-bin.tmp
+/_component_backups/
+/.fetch_repos-*/
 
 # PlatformIO
 .pio/

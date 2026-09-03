@@ -1,0 +1,14 @@
+[
+  {"name":"M5PM1","url":"https://github.com/m5stack/M5PM1.git","path":"components/M5PM1","ref":"main","commit":"be9a5456c007c333e7ac963f33bfde1ffa5d82ee"},
+  {"name":"espressif__cmake_utilities","url":"https://github.com/espressif/esp-iot-solution.git","path":"components/espressif__cmake_utilities","ref":"master","commit":"05f51bd7044e9f95bc978093fc78656e4d81cd37","source_subdir":"tools/cmake_utilities"},
+  {"name":"espressif__i2c_bus","url":"https://github.com/espressif/esp-iot-solution.git","path":"components/espressif__i2c_bus","ref":"master","commit":"ef13dcfd5aa18c4d6dca3d89d18173f8ae180a5f","source_subdir":"components/i2c_bus"},
+  {"name":"M5IOE1","url":"https://github.com/m5stack/M5IOE1.git","path":"components/M5IOE1","ref":"main","commit":"846eec7d05e25c09013be2acdb8804487f48a62e"},
+  {"name":"M5GFX","url":"https://github.com/m5stack/M5GFX.git","path":"components/M5GFX","ref":"master","commit":"d91077b9a607b59404e4e4a49f775c792bfae382","patches":[]},
+  {"name":"BMI270","url":"https://github.com/m5stack/M5StopWatch-PowerDemo.git","path":"components/BMI270","ref":"main","commit":"23fb37517f2e1db543fe460ffbcc5716990123dd","source_subdir":"components/otool_bmi270"},
+  {"name":"ic_rx8130","url":"https://github.com/Ocean-lhy/ic_rx8130.git","path":"components/ic_rx8130","ref":"main","commit":"d79bf99aa25168ab26886d0e94cf525be5a1343e"},
+  {"name":"RadioLib","url":"https://github.com/jgromes/RadioLib.git","path":"components/RadioLib","ref":"master","commit":"187ef24791c3d844939b2be13a68bd890bd04e4c"},
+  {"name":"M5Unit-NFC","url":"https://github.com/m5stack/M5Unit-NFC.git","path":"components/M5Unit-NFC","ref":"main","commit":"93745b547364f310cd64b5155a870103a7800a5d","patches":["patches/M5Unit-NFC.patch"]},
+  {"name":"M5UnitUnified","url":"https://github.com/m5stack/M5UnitUnified.git","path":"components/M5UnitUnified","ref":"main","commit":"bf711f370047cf16355b00005450ef615fab36e2","patches":["patches/M5UnitUnified.patch"]},
+  {"name":"M5Utility","url":"https://github.com/m5stack/M5Utility.git","path":"components/M5Utility","ref":"main","commit":"301a6b5c6413875e1dd80b027e0639921972b433"},
+  {"name":"M5HAL","url":"https://github.com/m5stack/M5HAL.git","path":"components/M5HAL","ref":"main","commit":"0f06f9d3134706ce030fd5515601cce65a267233","patches":["patches/M5HAL.patch"]}
+]

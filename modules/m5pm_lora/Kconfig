@@ -1,0 +1,6 @@
+menu "M5PaperMono LoRa test"
+config M5PM_LORA_RUNTIME_SECONDS
+    int "Periodic TX hard runtime limit (s)"
+    range 1 86400
+    default 600
+endmenu

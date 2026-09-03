@@ -1,0 +1,23 @@
+menu "M5PaperMono full-load safety"
+
+    config M5PM_FULL_LOAD_ENABLE
+        bool "Enable the full-load test"
+        default n
+        help
+            Keep this disabled until the implementation, current limit,
+            temperature limit, hard timeout, and stop controls are validated.
+
+endmenu
+
+menu "M5PaperMono full-load network"
+config M5PM_FULL_LOAD_WIFI_SSID
+    string "Wi-Fi SSID"
+    default ""
+config M5PM_FULL_LOAD_WIFI_PASSWORD
+    string "Wi-Fi password"
+    default ""
+config M5PM_FULL_LOAD_RUNTIME_SECONDS
+    int "Maximum runtime (seconds)"
+    range 1 3600
+    default 600
+endmenu

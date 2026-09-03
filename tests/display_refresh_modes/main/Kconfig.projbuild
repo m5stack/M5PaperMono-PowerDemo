@@ -1,0 +1,10 @@
+choice M5PM_DISPLAY_REFRESH_MODE
+    prompt "SSD1677 refresh mode"
+    default M5PM_DISPLAY_EPD_FASTEST
+    config M5PM_DISPLAY_EPD_FASTEST
+        bool "Fastest"
+    config M5PM_DISPLAY_EPD_FAST
+        bool "Fast"
+    config M5PM_DISPLAY_EPD_QUALITY
+        bool "Quality"
+endchoice

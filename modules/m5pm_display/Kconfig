@@ -1,0 +1,10 @@
+menu "M5PaperMono display test"
+config M5PM_FRONTLIGHT_PERCENT
+    int "Frontlight duty percent"
+    range 0 100
+    default 100
+config M5PM_PANEL_STATE
+    int "Panel state (0 idle, 1 deep sleep, 2 power off)"
+    range 0 2
+    default 0
+endmenu

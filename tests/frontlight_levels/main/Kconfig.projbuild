@@ -1,0 +1,10 @@
+choice M5PM_FRONTLIGHT_LEVEL
+    prompt "Frontlight level"
+    default M5PM_FRONTLIGHT_0
+    config M5PM_FRONTLIGHT_0
+        bool "0 percent"
+    config M5PM_FRONTLIGHT_50
+        bool "50 percent"
+    config M5PM_FRONTLIGHT_100
+        bool "100 percent"
+endchoice

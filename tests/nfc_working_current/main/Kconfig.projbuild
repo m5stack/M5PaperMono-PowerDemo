@@ -1,0 +1,10 @@
+menu "M5PaperMono NFC current"
+choice M5PM_NFC_MODE
+    prompt "NFC operating mode"
+    default M5PM_NFC_MODE_POWER_DOWN
+    config M5PM_NFC_MODE_POWER_DOWN
+        bool "Power down"
+    config M5PM_NFC_MODE_NFC_A_POLLING
+        bool "NFC-A polling"
+endchoice
+endmenu

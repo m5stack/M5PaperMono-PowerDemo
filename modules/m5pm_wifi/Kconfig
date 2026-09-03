@@ -1,0 +1,14 @@
+menu "M5PaperMono Wi-Fi test"
+config M5PM_WIFI_SSID
+    string "STA SSID"
+    default ""
+config M5PM_WIFI_PASSWORD
+    string "STA password"
+    default ""
+config M5PM_WIFI_PING_TARGET
+    string "Fixed LAN ICMP target"
+    default "192.168.1.1"
+config M5PM_WIFI_CONNECT_TIMEOUT_MS
+    int "Connection timeout (ms)"
+    default 15000
+endmenu
